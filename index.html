@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora de Giovana_Soares</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="calculadora">
+    <div class="telas">
+      <div id="calculo"></div>
+      <input type="text" id="tela" disabled>
+    </div>
+
+    <div class="botoes">
+      <div class="cima">
+        <button data-op="Ac">Ac</button>
+        <button data-op="<">⌫</button>
+        <button data-op="/">/</button>
+        <button data-op="*">*</button>
+      </div>
+      
+      <div class="juntos">
+        <div class="meio">
+          <button data-num="7">7</button>
+          <button data-num="8">8</button>
+          <button data-num="9">9</button>
+          <button data-num="4">4</button>
+          <button data-num="5">5</button>
+          <button data-num="6">6</button>
+          <button data-num="1">1</button>
+          <button data-num="2">2</button>
+          <button data-num="3">3</button>
+          
+          <div class="baixo">
+            <button data-num="0" id="zero">0</button>
+            <button data-num=".">.</button>
+          </div>
+        </div>
+
+        <div class="lado">
+          <button data-op="-">-</button>
+          <button data-op="+" id="mais">+</button>
+          <button data-op="=" id="igual">=</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="js/script.js"></script>
+</body>
+</html>

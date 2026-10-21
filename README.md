@@ -1,4 +1,4 @@
-# Calculadora
+# Calculadora - V 1.0
 
 Uma calculadora simples feita com HTML, CSS e JavaScript puro. Ela realiza as quatro operações básicas (soma, subtração, multiplicação e divisão), com visor que mostra a expressão digitada e o resultado.
 
